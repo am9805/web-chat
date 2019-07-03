@@ -1,6 +1,6 @@
 {
   "name": "chat-app",
-  "version": "0.1.0",
+  "version": "1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -42,5 +44,9 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "main": "index.js",
+  "author": "Angelica <angelica.arroyavem@udea.edu.co>",
+  "license": "MIT",
+  "description": "sada"
 }
